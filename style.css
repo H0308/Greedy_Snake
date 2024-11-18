@@ -26,6 +26,7 @@
     height: 10px;
     background-color: #000;
     position: absolute;
+    border: 1px solid #b7d4a8;
 }
 
 #food {
