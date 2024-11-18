@@ -130,7 +130,7 @@ setTimeout(function move() {
 
     //判断是否撞墙
     if (x < 0 || x > 290 || y < 0 || y > 290) {
-        alert("撞墙了！游戏结束！");
+        alert("Collision with the wall! Game Over!");
         // 游戏结束
         return;
     }
@@ -141,7 +141,7 @@ setTimeout(function move() {
             snakes[i].offsetLeft === x &&
             snakes[i].offsetTop === y
         ) {
-            alert("撞到自己了，游戏结束！");
+            alert("You have eaten yourself! Game Over!");
             return;
         }
     }
